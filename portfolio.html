@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jasmeer Singh Kalra - Portfolio</title>
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Raleway:wght@300;400;500&display=swap" rel="stylesheet">
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        :root {
+            --primary-color: #2A2A72;
+            --secondary-color: #009FFD;
+            --accent-color: #FFA400;
+        }
+
+        body {
+            font-family: 'Raleway', sans-serif;
+            background: #f8f9fa;
+        }
+
+        h1, h2, h3 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+
+        .hero-section {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 8rem 0;
+            clip-path: polygon(0 0, 100% 0, 100% 90%, 0 100%);
+        }
+
+        .skill-badge {
+            background: var(--secondary-color);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 20px;
+            margin: 0.3rem;
+            display: inline-block;
+            transition: transform 0.3s;
+        }
+
+        .skill-badge:hover {
+            transform: translateY(-3px);
+        }
+
+        .timeline {
+            position: relative;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .timeline::after {
+            content: '';
+            position: absolute;
+            width: 4px;
+            background: var(--primary-color);
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin-left: -2px;
+        }
+
+        .timeline-item {
+            padding: 20px 40px;
+            position: relative;
+            width: 50%;
+            background: white;
+            border-radius: 10px;
+            margin-bottom: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+        }
+
+        .publication-card {
+            border-left: 4px solid var(--secondary-color);
+            transition: transform 0.3s;
+        }
+
+        .publication-card:hover {
+            transform: translateX(10px);
+        }
+
+        .language-progress {
+            height: 8px;
+            border-radius: 4px;
+            background: #e9ecef;
+        }
+
+        .language-progress div {
+            background: var(--accent-color);
+            height: 100%;
+            border-radius: 4px;
+        }
+
+        .footer {
+            background-color: var(--primary-color);
+            color: white;
+            padding: 1rem 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Hero Section -->
+<section class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-3 mb-4">Jasmeer Singh Kalra</h1>
+        <p class="lead mb-4">MSc Life Science Informatics Researcher & AI Developer | Bioinformatics & Data Science Enthusiast</p>
+        <div class="d-flex justify-content-center gap-3">
+            <a href="https://github.com/Jasmeer57" class="btn btn-light btn-lg">
+                <i class="fab fa-github"></i> GitHub
+            </a>
+            <a href="https://www.linkedin.com/in/jasmeer-singh-kalra" class="btn btn-outline-light btn-lg">
+                <i class="fab fa-linkedin"></i> LinkedIn
+            </a>
+            <a href="mailto:s78jkalr@uni-bonn.de" class="btn btn-outline-light btn-lg">
+                <i class="fas fa-envelope"></i> Email </a>
+        </div>
+    </div>
+</section>
+
+<!-- Research Focus -->
+<section class="py-5 bg-white">
+    <div class="container text-center">
+        <h2 class="mb-5" data-aos="fade-up">Research Focus Areas</h2>
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="zoom-in">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="fas fa-dna fa-3x text-primary mb-3"></i>
+                        <h5>Bioinformatics Automation</h5>
+                        <p>Developing AI-powered pipelines for antimicrobial resistance prediction and analysis of genomic data.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="fas fa-brain fa-3x text-primary mb-3"></i>
+                        <h5>Clinical Machine Learning</h5>
+                        <p>Using machine learning models to predict biomarkers for neurodegenerative diseases like Alzheimer's and Parkinson's.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" data-aos="zoom-in" data-aos-delay="200">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <i class="fas fa-code fa-3x text-primary mb-3"></i>
+                        <h5>Open Source Tools</h5>
+                        <p>Building accessible bioinformatics solutions with a focus on enhancing healthcare and research efficiency.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+    /* Add this CSS rule to increase the font size of the Education section */
+    .education-section .card-title {
+        font-size: 2.5rem; /* Adjust the size as needed */
+    }
+
+    .education-section ul li {
+        font-size: 2.1rem; /* Optional: Increase font size for list items */
+    }
+</style>
+
+<!-- Education & Skills -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Education & Skills</h2>
+
+        <div class="row">
+            <!-- Education Section -->
+            <div class="col-md-6" data-aos="fade-right">
+                <div class="card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Education</h5>
+                        <ul>
+                            <li><strong>MSc Life Science Informatics</strong> - Bonn-Aachen International Center for Information Technology (b-it) (Oct 2023 - Present)</li>
+                            <li><strong>Bachelor’s of Engineering in Biotechnology, Minor in Economics</strong> - Delhi Technological University (July 2020 - 2023) - Cumulative Percentage: 92.5%</li>
+                            <li><strong>Diploma in Computer Engineering</strong> - Amity University, Uttar Pradesh (July 2017 - June 2020) - Cumulative Percentage: 80.4%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+<!-- Skills Section -->
+<div class="col-md-6" data-aos="fade-left">
+    <div class="card h-100">
+        <div class="card-body">
+            <h5 class="card-title">Technical Skills</h5>
+            <div class="d-flex flex-wrap">
+                <span class="skill-badge">Python</span>
+                <span class="skill-badge">Machine Learning</span>
+                <span class="skill-badge">Deep Learning</span>
+                <span class="skill-badge">Bioinformatics</span>
+                <span class="skill-badge">SQL</span>
+                <span class="skill-badge">R</span>
+                <span class="skill-badge">TensorFlow</span>
+                <span class="skill-badge">PyTorch</span>
+                <span class="skill-badge">AWS</span>
+                <span class="skill-badge">Docker</span>
+                <span class="skill-badge">Podman</span>
+                <span class="skill-badge">Kubernetes</span>
+                <span class="skill-badge">CI/CD</span>
+                <span class="skill-badge">Git</span>
+                <span class="skill-badge">HPC Workflows</span>
+                <span class="skill-badge">Data Visualization</span>
+                <span class="skill-badge">NLP</span>
+                <span class="skill-badge">Linux</span>
+                <span class="skill-badge">REST APIs</span>
+                <span class="skill-badge">Bioinformatics Pipelines</span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Professional Journey -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Professional Journey</h2>
+        
+        <div class="timeline">
+            <!-- Fraunhofer SCAI -->
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="timeline-content">
+                    <h4>AI Research Scientist</h4>
+                    <h5>Fraunhofer SCAI</h5>
+                    <p class="text-muted">Jan 2024 - Present</p>
+                    <ul>
+                        <li>Developing transformer-based models for drug discovery</li>
+                        <li>Integr ating multi-omics data for predictive analytics</li>
+                        <li>Optimizing HPC workflows for clinical applications</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- ZB MED -->
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="timeline-content">
+                    <h4>Data Science Engineer</h4>
+                    <h5>ZB MED - PUBLISSO</h5>
+                    <p class="text-muted">Mar 2023 - Dec 2023</p>
+                    <ul>
+                        <li>Built metadata management system serving 50k+ users</li>
+                        <li>Automated scientific workflow processing</li>
+                        <li>Developed Open Access data curation tools</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- IMTECH -->
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="timeline-content">
+                    <h4>Research Trainee</h4>
+                    <h5>CSIR – Institute Of Microbial Technology (IMTECH)</h5>
+                    <p class="text-muted">May 2022 - Aug 2022</p>
+                    <ul>
+                        <li>Developed machine learning models for antimicrobial resistance diagnostics</li>
+                        <li>Created an automated pipeline for clinical isolate characterization</li>
+                        <li>Utilized NLP for identifying COVID-19 drug inhibitors</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- JSimple -->
+            <div class="timeline-item right" data-aos="fade-left">
+                <div class="timeline-content">
+                    <h4>Business Analyst Intern</h4>
+                    <h5>JSimple, IT Training and Development</h5>
+                    <p class="text-muted">Aug 2021 - Nov 2021</p>
+                    <ul>
+                        <li>Operated CRUD functions in a real-time database</li>
+                        <li>Created APIs for HRMS software</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- JavaTpoint -->
+            <div class="timeline-item left" data-aos="fade-right">
+                <div class="timeline-content">
+                    <h4>Python Content Developer</h4>
+                    <h5>JavaTpoint.com</h5>
+                    <p class="text-muted">June 2021 - Sep 2021</p>
+                    <ul>
+                        <li>Worked on various Python libraries for machine learning</li>
+                        <li>Content writing on data visualization tools</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Research Contributions -->
+<section class="py-5">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Research Contributions</h2>
+        
+        <div class="row g-4">
+            <div class="col-md-6" data-aos="zoom-in">
+                <div class="card publication-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">Galaxy ASIST Platform</h5>
+                        <p class="text-muted">Frontiers in Microbiology (IF: 5.2)</p>
+                        <p>Developed web-based platform for antimicrobial susceptibility analysis.</p>
+                        <a href="https://doi.org/10.3389/fmicb.2022.1041847" class="btn btn-primary">
+                            View Publication
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-6" data-aos="zoom-in" data-aos-delay="100">
+                <div class="card publication-card h-100">
+                    <div class="card-body">
+                        <h5 class="card-title">HD Biomarker Discovery</h5>
+                        <p class="text-muted">ICIRCA 2023 Conference</p>
+                        <p>CatBoost model achieving 92% accuracy in HD stage prediction using clinical data.</p>
+                        <a href="https://doi.org/10.1109/ICIRCA54543.2023.00087" class="btn btn-primary">
+                            View Conference Paper
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Languages -->
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5" data-aos="fade-up">Languages</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <p><strong>English</strong></p>
+                <div class="language-progress">
+                    <div style="width: 90%;"></div>
+                </div>
+ <p>Fluent in writing, reading, and speaking (C1 or native).</p>
+            </div>
+            <div class="col-md-6">
+                <p><strong>German</strong></p>
+                <div class="language-progress">
+                    <div style="width: 15%;"></div>
+                </div>
+                <p>Beginner (A1)</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<section class="footer">
+    <div class="container text-center">
+        <p>&copy; 2025 Jasmeer Singh Kalra. All rights reserved.</p>
+    </div>
+</section>
+
+<!-- Scripts -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
