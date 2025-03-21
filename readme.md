@@ -1,87 +1,75 @@
-# JASMEER SINGH KALRA  
-**Data Scientist | Machine Learning Researcher | Bioinformatics Engineer**  
-📍 Bonn, Germany | 📞 +49 15510420347 | 📧 s78jkalr@uni-bonn.de  
-🔗 [GitHub](https://github.com/[username]) | 🔗 [LinkedIn](https://linkedin.com/in/[username])  
-
+---
+marp: true
 ---
 
-## EDUCATION  
-**MSc. Life Science Informatics**  
-Bonn-Aachen International Center for Information Technology (b-it) | *Oct 2023 – Present*  
+JASMEER SINGH KALRA  
+Bonn, Germany | +49 15510420347 | s78jkalr@uni-bonn.de  
+GitHub: https://github.com/[username] | LinkedIn: https://linkedin.com/in/[username]  
 
-**Bachelor of Engineering in Biotechnology (Minor: Economics)**  
-Delhi Technological University | *July 2020 – July 2023*  
-- Cumulative Percentage: **92.5%**  
+-----------------------------------------------------------
 
-**Diploma in Computer Engineering**  
-Amity University, Uttar Pradesh | *July 2017 – June 2020*  
-- Cumulative Percentage: **80.4%**  
+EDUCATION  
+MSc Life Science Informatics  
+Bonn-Aachen International Center for Information Technology (b-it) | Oct 2023 - Present  
 
----
+Bachelor of Engineering in Biotechnology (Minor: Economics)  
+Delhi Technological University | Jul 2020 - Jul 2023  
+- Cumulative Percentage: 92.5%  
 
-## WORK EXPERIENCE  
-**Thesis Student/Student Assistant**  
-*Fraunhofer SCAI* | *April 2025 – Present (Expected)*  
-- Researching microbiome lab processes and FAIR-compliant data models for translational research.  
-- Designing reusable data models and using LLMs for ontology learning/data harmonization.  
-- Mapping shared knowledge across microbiome research communities.  
+Diploma in Computer Engineering  
+Amity University, Uttar Pradesh | Jul 2017 - Jun 2020  
+- Cumulative Percentage: 80.4%  
 
-**Web Development Intern & Editorial Assistant**  
-*ZB MED - PUBLISSO* | *Mar 2023 – Dec 2023*  
-- Developed the PUBLISSO website molecules listing page using HTML/CSS/JavaScript.  
-- Automated data masking for GDPR compliance and optimized editorial workflows.  
-- Built bibliographic tools for researchers and improved CMS efficiency by **20%**.  
+-----------------------------------------------------------
 
-**Research Trainee**  
-*CSIR – Institute of Microbial Technology (IMTECH)* | *May 2022 – Aug 2022*  
-- Developed ML models (SCM, SVM, Random Forests) for antimicrobial resistance diagnostics.  
-- Created an automated pipeline for clinical isolate characterization using CLSI/EUCAST standards.  
-- Applied NLP to identify COVID-19 drug inhibitors.  
+WORK EXPERIENCE  
+Thesis Student/Student Assistant  
+Fraunhofer SCAI | Apr 2025 - Present (Expected)  
+- Designed FAIR-compliant data models for microbiome research using LLMs.  
+- Automated ontology learning processes, reducing data harmonization time by 30%.  
 
-**Business Analyst Intern**  
-*JSimple, IT Training and Development* | *Aug 2021 – Nov 2021*  
-- Built CRUD APIs for HRMS software and optimized MongoDB databases.  
-- Integrated LinkedIn data into HRonTips platform, reducing data entry time by **30%**.  
+Web Development Intern & Editorial Assistant  
+ZB MED - PUBLISSO | Mar 2023 - Dec 2023  
+- Developed GDPR-compliant web tools for bibliographic management using HTML/CSS/JavaScript.  
+- Optimized content workflows, improving editorial efficiency by 20%.  
 
----
+Research Trainee (Ab-Open Lab)  
+CSIR - Institute of Microbial Technology (IMTECH) | May 2022 - Aug 2022  
+- Built machine learning models (SVM, Random Forests) for antimicrobial resistance diagnostics.  
+- Created automated pipeline adhering to CLSI/EUCAST standards, processing 500+ clinical isolates.  
 
-## RESEARCH & PROJECTS  
-**Computational Biomarker Discovery for Huntington’s Disease** | *Jan 2023 – July 2023*  
-- Predicted pre-manifest Huntington’s disease stages using CatBoost on TRACK-HD dataset (accuracy: **92%**).  
-- **Publication**: *2023 5th International Conference on Inventive Research in Computing Applications (ICIRCA)* [DOI: 10.1109/ICIRCA57980.2023.10220841].  
+-----------------------------------------------------------
 
-**Galaxy ASIST Automation Tool** | *Sept 2022 – Jan 2023*  
-- Developed Python/Linux-based tools for automated antimicrobial resistance profiling (QUAST, ABRicate).  
-- **Publication**: *Frontiers in Microbiology* [DOI: 10.3389/fmicb.2022.1041847].  
+TECHNICAL SKILLS  
+Programming: Python, SQL, JavaScript, HTML/CSS  
+Machine Learning: PyTorch, Scikit-learn, TensorFlow, NLP, Deep Learning  
+Tools: Docker, Git, Linux, MongoDB, Tableau, SPSS  
+Languages: English (Fluent), German (B1), Hindi, Punjabi  
 
-**AMR Gene Prediction (Machine Learning)** | *Jan 2024 – Present*  
-- Training neural networks to predict antimicrobial resistance genes in pathogens (Python/PyTorch).  
+-----------------------------------------------------------
 
-**Diabetes Classification** | *GitHub*  
-- Built a KNN model (Kaggle dataset) to predict diabetes (accuracy: **85%**, NumPy/Pandas).  
+RESEARCH & PUBLICATIONS  
+Computational Biomarker Discovery for Huntington’s Disease (Jan 2023 - Jul 2023)  
+- Achieved 92% accuracy predicting Huntington’s disease stages using CatBoost on TRACK-HD dataset.  
+- Published: 2023 5th ICIRCA Conference. DOI: 10.1109/ICIRCA57980.2023.10220841  
 
----
+Galaxy ASIST Automation Tool (Sep 2022 - Jan 2023)  
+- Developed Python-based tool integrating QUAST/ABRicate for antimicrobial resistance profiling.  
+- Published: Frontiers in Microbiology. DOI: 10.3389/fmicb.2022.1041847  
 
-## SKILLS  
-**Technical**: Python, PyTorch, SQL, Linux, Docker, Git, HTML/CSS, JavaScript, MongoDB  
-**Data Science**: Machine Learning, Deep Learning, NLP, Data Visualization (Matplotlib/Seaborn/Tableau)  
-**Tools**: Scikit-learn, OpenCV, TensorFlow, SPSS, Galaxy Platform  
-**Languages**: English (Fluent), German (B1), Hindi, Punjabi  
+Machine Learning for AMR Gene Prediction (Jan 2024 - Present)  
+- Training CNN/RNN models to predict antimicrobial resistance genes (Python/PyTorch).  
 
----
+-----------------------------------------------------------
 
-## PUBLICATIONS  
-1. Sharma T., **Kalra J.S.**, et al. (2023). *Galaxy ASIST: A web-based platform for antimicrobial susceptibility assessment*. Frontiers in Microbiology. [DOI:10.3389/fmicb.2022.1041847]  
-2. **Kalra J.S.**, Kumar P. (2023). *Huntington's Disease Biomarker Discovery: A Computational Approach*. ICIRCA 2023. [DOI:10.1109/ICIRCA57980.2023.10220841]  
+LEADERSHIP & VOLUNTEERING  
+Student Coordinator, ChemisTree Eco Club (DTU)  
+- Secured sponsorships worth INR 10 lakh and organized 15+ sustainability events.  
 
----
+Millennium Fellow, United Nations Academic Impact  
+- Led SDG 15 initiatives including weekly animal welfare campaigns.  
 
-## LEADERSHIP & VOLUNTEERING  
-**Student Co-Coordinator** | *ChemisTree Eco Club, DTU*  
-- Led 100+ activists to secure sponsorships worth **₹10 lakh** and organized PAN India events.  
+Database Executive, National Service Scheme (DTU)  
+- Managed 1000+ volunteer records and organized blood donation drives during COVID-19.  
 
-**Millennium Fellow** | *United Nations Academic Impact*  
-- Spearheaded SDG 15 (“Life on Land”) initiatives, including animal welfare campaigns and feeding drives.  
-
-**Database Executive** | *National Service Scheme, DTU*  
-- Managed 1000+ volunteer records and organized blood donation/social impact drives.  
+-----------------------------------------------------------
